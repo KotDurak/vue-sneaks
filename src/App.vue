@@ -1,11 +1,11 @@
 <script setup>
-import MyComponent from "@/components/MyComponent.vue";
-
-
+import HeaderSite from "@/components/HeaderSite.vue";
 </script>
 
 <template>
-  <MyComponent/>
+  <div class="w-4/5 m-auto bg-white rounded-xl h-screen shadow-xl mt-10">
+    <HeaderSite/>
+  </div>
 </template>
 
 <style scoped>
